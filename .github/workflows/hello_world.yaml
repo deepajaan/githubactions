@@ -1,7 +1,8 @@
 name: Hello world
 on:
- push:
-   - main
+   push:
+     branches:
+      - main
 jobs:
   first-hello-world-jon:
   runs-on: ubuntu-latest
