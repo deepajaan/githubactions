@@ -1,6 +1,6 @@
 name: Hello world
 on:
-  push:
+ push:
    - main
 jobs:
   first-hello-world-jon:
